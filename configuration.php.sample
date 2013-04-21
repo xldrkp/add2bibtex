@@ -1,0 +1,7 @@
+<?php
+
+    // Path to the folder where the data will be stored
+    define('BIBTEXPATH', '/my/path/to/the/folder/');
+
+    // Generates a new file every day
+    define('BIBTEXFILE', date('Y-m-d', time()) . '.bib');

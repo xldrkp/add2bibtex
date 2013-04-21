@@ -1,0 +1,7 @@
+AuthType Basic
+AuthUserFile /var/www/your/folder/.htpasswd
+AuthName "Please authenticate!"
+
+order deny,allow
+allow from all
+require valid-user

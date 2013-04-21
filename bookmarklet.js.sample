@@ -1,0 +1,4 @@
+javascript:var here = location.href;
+var data = document.getElementsByTagName('pre')[0].innerHTML;
+var encData = encodeURIComponent(data);
+window.location.href = "http://example.com/your/folder/?data=" + encData;
